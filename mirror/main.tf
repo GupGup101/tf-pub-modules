@@ -5,7 +5,7 @@ variable "message" {
 }
 
 output "ver" {
-  value       = "v1.00"
+  value       = "v1.01"
 }
 
 output "message" {
