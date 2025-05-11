@@ -4,17 +4,10 @@ variable "message" {
   type = string
 }
 
-variable "ver" {
-  type = string
-  default = "v1.00"
-}
-
 output "ver" {
-  value       = var.ver
+  value       = "v1.00"
 }
 
 output "message" {
   value       = var.message
 }
-
-
