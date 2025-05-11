@@ -4,13 +4,13 @@ variable "message" {
   type = string
 }
 
-variable "version" {
+variable "ver" {
   type = string
   default = "v1.00"
 }
 
-output "version" {
-  value       = var.version
+output "ver" {
+  value       = var.ver
 }
 
 output "message" {
